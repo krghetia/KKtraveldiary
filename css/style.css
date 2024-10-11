@@ -69,3 +69,35 @@
     font-weight: bold;
     color: #1f4386;
 }
+
+.bloglinks{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding-bottom: 850px;
+    padding-left: 1650px;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color: #fff;
+}
+
+.bloglinks .btn1{
+    display: flex;
+    padding: 12px 20px;
+    background-color: #5498ba;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease; 
+    cursor: pointer;
+}
+.bloglinks .btn1:hover{
+    font-weight: bold;
+    color: #1f4386; 
+}
